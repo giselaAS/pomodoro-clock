@@ -4,7 +4,17 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+  extend: {
+    fontFamily: {
+      rounded: [
+        "Arial Rounded MT Bold",
+        "Nunito",
+        "Quicksand",
+        "sans-serif"
+      ],
+    },
   },
+},
+
   plugins: [],
 }
